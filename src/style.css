@@ -1,0 +1,106 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url("/src/img/bg.png");
+  font-family: "Open Sans", sans-serif;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+
+/*Container______________________________________*/
+.container {
+  width: 100%;
+  max-width: 1024px;
+}
+
+/*______________________________________Container*/
+
+/*Header_________________________________________*/
+
+.header {
+  padding-top: 50px;
+  margin-left: 50px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+/*________________________________________Header*/
+
+/*About me______________________________________*/
+
+.about-me {
+  display: flex;
+  padding-left: 50px;
+}
+
+.about-me-txt {
+  text-align: center;
+  padding-top: 50px;
+  margin-left: 40px;
+  width: 600px;
+  font-size: 16px;
+}
+
+.about-me span {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.foto {
+  height: 300px;
+  padding-bottom: 20px;
+}
+
+/*_________________________________________About me*/
+
+/*Skills___________________________________________*/
+
+.skills-inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-top: 30px;
+  width: 50%;
+}
+
+.skills p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.my-skills {
+  font-size: 16px;
+}
+
+/*__________________________________________Skills*/
+
+.english {
+  font-size: 16px;
+  padding: 5px 50px;
+}
+
+.english span {
+  font-size: 17px;
+  font-weight: 700;
+}
